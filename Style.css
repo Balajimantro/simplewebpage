@@ -1,0 +1,107 @@
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0, 0, 0.19);
+
+}
+h1{
+    padding-left: 40px;
+    font-weight: bolder;
+}
+
+li{
+    display: inline;
+    margin-left: 30px;
+    color: grey;
+    cursor: pointer;
+}
+
+li:hover{
+    color: beige;
+}
+
+ul{
+    margin-left: 60%;
+    margin-top: 25px;
+}
+
+.srch{
+    text-align: center;
+    margin-top: 30px;
+}
+
+input{
+    width: 60%;
+    padding: 15px;
+}
+
+.box{
+    border: 2px solid black;
+    padding: 10px;
+    width: 220px;
+    margin-left: 10px;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.box:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.gly{
+    position: relative;
+    top: 60px;
+    z-index: 1;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.product{
+    margin-top: 5px;
+    background-color: whitesmoke;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 20%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    padding-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0, 0, 0.19);
+
+
+}
+
+.about{
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+
+.about p{
+    color: gray;
+    letter-spacing: 1px;
+
+}
+
+.about p:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.contact{
+    padding: 5px;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+
+
+
